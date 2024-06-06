@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人便签 - 邬幽邬虑</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/board.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="information.html">个人信息</a></li>
+                <li><a href="skill.html">个人技能</a></li>
+                <li><a href="project.html">项目信息</a></li>
+                <li><a href="honor.html">个人荣誉</a></li>
+                <li><a href="./board.html">个人便签</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>个人便签</h1>
+
+    <div id="messageList">
+        <h2 style="color: blue; text-align: center;">便签列表</h2>
+        <ul id="messageItems">
+            <!-- 留言将会显示在这里 -->
+        </ul>
+    </div>
+
+    <form id="messageForm">
+        <textarea id="messageInput" placeholder="输入留言..."></textarea>
+        <button type="submit">发布留言</button>
+    </form>
+
+    <footer>
+        <p>&copy; 邬幽邬虑</p>
+    </footer>
+
+    <script src="../JS/board.js"></script>
+</body>
+
+</html>
